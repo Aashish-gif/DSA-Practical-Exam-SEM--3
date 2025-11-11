@@ -1,0 +1,2 @@
+CREATE TABLE MenuItems ( item_id INT PRIMARY KEY, item_name VARCHAR(50) UNIQUE, price INT NOT NULL, category VARCHAR(30) );
+
