@@ -1,0 +1,9 @@
+INSERT INTO MenuItems (item_id, item_name, price, category) VALUES (1, 'Burger', 120, 'Snacks'), (2, 'Pasta', 220, 'Main Course'), (3, 'Brownie', 90, 'Dessert');
+
+UPDATE MenuItems SET price = 250 WHERE item_id = 2;
+
+DELETE FROM MenuItems WHERE item_id = 1;
+
+SELECT AVG(price) AS Average_Price FROM MenuItems;
+
+SELECT SUM(price) AS Total_Price FROM MenuItems;
